@@ -1,0 +1,100 @@
+body {
+
+}
+
+.container {
+
+}
+
+.sidebar {
+
+}
+
+.main-content {
+
+}
+
+.profile-pic {
+
+}
+
+h1, h2, h3 {
+
+}
+
+.cta-button {
+
+}
+
+.bio {
+    
+}
+
+.project-grid {
+
+}
+
+.project-card {
+
+}
+
+.project-overlay {
+
+}
+
+.cta-button:hover {
+
+}
+
+.project-card:hover .project-overlay {
+
+}
+
+.cv-page h2 {
+
+}
+
+.job, .education {
+
+}
+
+.job h3, .education h3 {
+    
+}
+
+.job p, .education p {
+
+}
+
+.skills-list {
+
+}
+
+.skills-list li {
+
+}
+
+.contact-info {
+    
+}
+
+@media (max-width: 992px) {
+    .container {
+
+    }
+
+    .sidebar, .main-content {
+
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+
+    }
+
+    .project-grid {
+
+    }
+}
+
