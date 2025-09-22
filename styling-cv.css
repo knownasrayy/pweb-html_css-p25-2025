@@ -1,15 +1,14 @@
-/* General Styling */
 :root {
-    --primary-color: #2c3e50; /* Dark Blue */
-    --secondary-color: #3498db; /* Bright Blue */
-    --text-color: #555; /* Dark Gray */
+    --primary-color: #2c3e50; 
+    --secondary-color: #3498db; 
+    --text-color: #555;
     --light-gray: #f4f7f6;
     --border-color: #e9ecef;
     --white-color: #ffffff;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--light-gray);
     color: var(--text-color);
     margin: 0;
@@ -34,7 +33,7 @@ body {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
-/* Header Section */
+
 header {
     text-align: center;
     margin-bottom: 40px;
@@ -66,7 +65,7 @@ header h2 {
     margin: 0;
 }
 
-/* Main Content Section */
+
 main {
     padding: 0 10px;
 }
@@ -75,7 +74,7 @@ section {
     margin-bottom: 40px;
 }
 
-/* Section Titles */
+
 section h3 {
     font-size: 1.8em;
     font-weight: 600;
@@ -86,12 +85,12 @@ section h3 {
     display: inline-block;
 }
 
-/* Profile Section */
+
 #profil p {
     font-size: 1.1em;
 }
 
-/* Education Section */
+
 #pendidikan ul {
     list-style: none;
     padding: 0;
@@ -111,7 +110,7 @@ section h3 {
     font-size: 1.2em;
 }
 
-/* Career Sections */
+
 .career-item {
     margin-bottom: 25px;
     padding: 20px;
@@ -138,7 +137,7 @@ h4 {
     color: #777;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     margin-top: 40px;
@@ -148,7 +147,7 @@ footer {
     color: #999;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     body {
         padding: 10px;
