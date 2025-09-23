@@ -128,12 +128,13 @@ h2 {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.85);
     color: #e2e8f0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* ==== PERUBAHAN DI SINI ==== */
+    display: grid;
+    place-items: center;
     text-align: center;
     padding: 1.5rem;
+    box-sizing: border-box; /* Memastikan padding tidak membuat overflow */
+    /* ==== AKHIR PERUBAHAN ==== */
     opacity: 0;
     transition: opacity 0.3s ease;
 }
